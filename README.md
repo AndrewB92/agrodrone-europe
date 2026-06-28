@@ -1,4 +1,4 @@
-# agrodrone-europe# AgroDrone Europe
+# AgroDrone Europe
 
 A lightweight static website built with HTML, CSS and vanilla JavaScript.
 
