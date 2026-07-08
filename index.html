@@ -30,8 +30,13 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="/assets/hero-drone.webp" />
-    <link rel="icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon_de.png">
+    <link rel="icon" type="image/svg+xml" href="/favicon_de.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32_de.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16_de.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
     <link rel="preload" href="/assets/logo.webp" as="image" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -68,10 +73,11 @@
         </a>
 
         <nav class="desktop-nav" aria-label="Hauptnavigation">
-          <a href="#services">Leistungen</a>
-          <a href="#about">Über uns</a>
-          <a href="#benefits">Vorteile</a>
-          <a href="#contact">Kontakt</a>
+          <a href="#leistungen">Leistungen</a>
+          <!-- <a href="#einsatzbereiche">Einsatzbereiche</a>
+          <a href="#daas-modell">DAAS-Modell</a> -->
+          <a href="#vorteile">Vorteile</a>
+          <a href="#kontakt">Kontakt</a>
         </nav>
 
         <div class="header-actions">
@@ -84,7 +90,7 @@
             +49 351 824 29007
           </a>
 
-          <a class="btn btn-header" href="#contact">
+          <a class="btn btn-header" href="#kontakt">
             Angebot anfordern
           </a>
         </div>
@@ -107,10 +113,12 @@
         data-mobile-nav
         aria-label="Mobile Navigation"
       >
-        <a href="#services">Leistungen</a>
-        <a href="#about">Über uns</a>
-        <a href="#benefits">Vorteile</a>
-        <a href="#contact">Kontakt</a>
+        <a href="#leistungen">Leistungen</a>
+        <!-- <a href="#einsatzbereiche">Einsatzbereiche</a>
+        <a href="#daas-modell">DAAS-Modell</a> -->
+        <a href="#vorteile">Vorteile</a>
+        <a href="#kontakt">Kontakt</a>
+
         <a href="/pl/" lang="pl">Polski</a>
 
         <a class="mobile-phone" href="tel:+4935182429007">
@@ -148,11 +156,11 @@
           </p>
 
           <div class="hero-buttons">
-            <a class="btn btn-primary hero-cta" href="#contact">
+            <a class="btn btn-primary hero-cta" href="#kontakt">
               Angebot anfordern
             </a>
 
-            <a class="btn btn-primary hero-cta" href="#services-tabs-section">
+            <a class="btn btn-primary hero-cta" href="#leistungen">
               Leistungen ansehen
             </a>
           </div>
@@ -165,7 +173,7 @@
             OPEX-Minimierung und umfassender Anlagenschutz durch DAAS
           </h2>
 
-          <div class="numbers-grid">
+          <div class="numbers-grid" data-reveal>
             <article class="number-card">
               <strong class="number-value">
                 <span class="number-main">0</span>
@@ -216,7 +224,7 @@
         </div>
       </section>
 
-      <section class="industries-section" aria-labelledby="industries-title">
+      <section id="einsatzbereiche" class="industries-section" aria-labelledby="industries-title">
         <div class="container">
           <h2 id="industries-title" class="industries-title">
             Schlüsselfertiger Robotik-Service – ohne Gerätebeschaffung,
@@ -607,7 +615,7 @@
       </section>
 
       <section
-        id="services-tabs-section"
+        id="leistungen"
         class="services-tabs-section"
         aria-labelledby="services-tabs-title"
         data-tabs
@@ -970,14 +978,14 @@
           </div>
 
           <div class="services-tabs-action">
-            <a class="btn services-tabs-button" href="#contact">
+            <a class="btn services-tabs-button" href="#kontakt">
               Angebot anfordern
             </a>
           </div>
         </div>
       </section>
 
-      <section class="outsourcing-cta" aria-labelledby="outsourcing-cta-title">
+      <section id="daas-modell" class="outsourcing-cta" aria-labelledby="outsourcing-cta-title">
         <div class="outsourcing-cta__media" aria-hidden="true">
           <img
             src="/assets/cta-outsourcing.webp"
@@ -1011,7 +1019,7 @@
         </div>
       </section>
 
-      <section class="guarantees-section" aria-labelledby="guarantees-title">
+      <section id="vorteile" class="guarantees-section" aria-labelledby="guarantees-title">
         <div class="container">
           <h2 id="guarantees-title" class="guarantees-title">
             Schlüsselfertige Leistungsgarantie: AgroDrone Europe übernimmt sämtliche
@@ -1196,20 +1204,17 @@
         </div>
       </section>
 
-      <section id="contact" class="contact-section" aria-labelledby="contact-title">
+      <section id="kontakt" class="contact-section" aria-labelledby="contact-title">
         <div class="container contact-section__grid">
           <div class="contact-section__content">
-            <span class="contact-section__eyebrow">Kontakt</span>
+            <!-- <span class="contact-section__eyebrow">Kontakt</span> -->
 
             <h2 id="contact-title">
-              Bereit für den nächsten
-              <span>effizienten Einsatz?</span>
+              Projektdaten eingeben und freie Termine für Ihr Objekt reservieren
             </h2>
 
             <p class="contact-section__lead">
-              Kontaktieren Sie uns für eine unverbindliche Beratung. Wir erstellen
-              ein individuelles Angebot auf Basis Ihrer Fläche, Anwendung und
-              betrieblichen Anforderungen.
+              Bitte hinterlassen Sie Ihre Kontaktdaten, damit unser Experte Sie zurückrufen kann, um die Details Ihres Objekts zu klären und freie Flugtermine auszuwählen. 
             </p>
 
             <div class="contact-section__details">
@@ -1395,11 +1400,11 @@
           <div>
             <a class="logo" href="/"
               ><img
-                src="/assets/logo.webp"
+                src="/assets/logo-mark-blue.svg"
                 alt="AgroDrone Europe"
                 width="48"
                 height="48"
-              /><span>AgroDrone Europe</span></a
+              /><span class="logo-name">AgroDrone Europe</span></a
             >
             <p>
               Professionelle Drohnen-Dienstleistungen in der Landwirtschaft und
@@ -1420,7 +1425,7 @@
             <ul>
               <li><a href="#about">Über uns</a></li>
               <li><a href="#benefits">Vorteile</a></li>
-              <li><a href="#contact">Kontakt</a></li>
+              <li><a href="#kontakt">Kontakt</a></li>
             </ul>
           </div>
           <div>
